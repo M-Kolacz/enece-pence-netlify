@@ -15,7 +15,7 @@ node_bundler = "esbuild"
 force = true
 from = "/*"
 status = 200
-to = "/.netlify/functions/:splat"
+to = "/.netlify/functions/remix"
 
 [[headers]]
 for = "/build/*"
