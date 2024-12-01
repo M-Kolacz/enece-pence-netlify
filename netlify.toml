@@ -8,6 +8,10 @@ framework = "vite"
 
 # Set immutable caching for static files, because they have fingerprinted filenames
 
+[functions]
+external_node_modules = ["express"]
+node_bundler = "esbuild"
+
 [[headers]]
 for = "/build/*"
 
