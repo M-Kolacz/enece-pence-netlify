@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
+import "../style.css";
 
 export const meta: MetaFunction = () => {
   return [
